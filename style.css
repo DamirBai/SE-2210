@@ -1,11 +1,37 @@
 body{
     font-family: "Comic Sans MS",sans-serif;
 }
+
 .main-info{
     border: 2px solid darkblue;
     padding: 30px;
     margin: 50px;
 }
+
 h1{
     text-align: center;
+}
+
+a:link {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: darkblue;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: lightblue;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: mediumblue;
+    background-color: transparent;
+    text-decoration: underline;
 }
