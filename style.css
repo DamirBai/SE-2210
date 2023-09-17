@@ -1,14 +1,14 @@
-body{
+body {
     font-family: "Comic Sans MS",sans-serif;
 }
 
-.main-info{
+.main-info {
     border: 2px solid darkblue;
     padding: 30px;
     margin: 50px;
 }
 
-h1{
+h1 {
     text-align: center;
 }
 
@@ -34,4 +34,13 @@ a:active {
     color: mediumblue;
     background-color: transparent;
     text-decoration: underline;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+div {
+    background-color: whitesmoke;
 }
