@@ -2,12 +2,6 @@ body {
     font-family: "Comic Sans MS",sans-serif;
 }
 
-.main-info {
-    border: 2px solid darkblue;
-    padding: 30px;
-    margin: 50px;
-}
-
 h1 {
     text-align: center;
 }
@@ -41,6 +35,31 @@ table, th, td {
     border-collapse: collapse;
 }
 
-div {
-    background-color: whitesmoke;
+.main-block{
+    background-image: linear-gradient(to right, whitesmoke, ghostwhite); /*gradient*/
+    padding: 15px;
+    margin: 20px;
+    border: 2px solid black;
+    border-radius: 25px; /*rounded border*/
+}
+
+.list-of-students{
+    padding: 5px;
+    margin: 5px;
+}
+
+.jump-to-block{
+    padding: 10px;
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    text-align: center;
+    float: right;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
 }
